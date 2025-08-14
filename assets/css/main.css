@@ -504,7 +504,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: clip;
 }
 
@@ -836,7 +836,7 @@ section,
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
+  padding: 5px;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
@@ -1149,13 +1149,13 @@ section,
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 50px;
+  height: 50px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
@@ -1171,9 +1171,10 @@ section,
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-weight: 1100;
+  margin-bottom: 50px;
   padding-bottom: 20px;
+  line-height: 1.5;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
